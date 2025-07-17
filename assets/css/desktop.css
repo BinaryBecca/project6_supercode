@@ -1,15 +1,6 @@
 @media only screen and (min-width: 992px) {
   /* ------------Article2/Article4------------ */
 
-  .article2,
-  .article3,
-  .article4,
-  .article5,
-  .article6,
-  .article7 {
-    height: 110vh;
-  }
-
   .grauerKasten {
     margin: 8rem 6rem;
   }
