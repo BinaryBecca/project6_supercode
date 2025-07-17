@@ -1,0 +1,27 @@
+@media only screen and (min-width: 992px) {
+  /* ------------Article2/Article4------------ */
+
+  .article2,
+  .article3,
+  .article4,
+  .article5,
+  .article7 {
+    height: 100vh;
+  }
+
+  .grauerKasten {
+    margin: 8rem 6rem;
+  }
+
+  .desktop {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .article6 section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5rem;
+    margin: 0 5rem;
+  }
+}
