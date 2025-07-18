@@ -9,10 +9,6 @@
     height: 110vh;
   }
 
-  .grauerKasten {
-    margin: 8rem 6rem;
-  }
-
   .desktop {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
