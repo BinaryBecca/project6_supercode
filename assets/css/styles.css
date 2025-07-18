@@ -200,6 +200,8 @@ header nav {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .article6 header {
@@ -212,8 +214,9 @@ header nav {
 .article6 section {
   display: flex;
   flex-direction: column;
-  text-align: center;
   justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .article6 img {

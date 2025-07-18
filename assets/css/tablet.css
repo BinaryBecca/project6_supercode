@@ -1,6 +1,15 @@
 @media only screen and (min-width: 768px) {
   /* ------------Article2/Article4------------ */
 
+  :root {
+    font-size: 100%;
+    /* default browser user */
+    --size_small: 1.8rem;
+    --size_smaller: 1.5rem;
+    --size_medium: 2.5rem;
+    --size_big: 5rem;
+  }
+
   .article2,
   .article3,
   .article4,
@@ -9,6 +18,12 @@
   .article7 {
     height: 110vh;
   }
+
+  .burger {
+    width: 40px;
+    margin: 3px;
+  }
+
   .article2 section {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -19,10 +34,35 @@
     flex-wrap: nowrap;
   }
 
-  .article2 img,
   .article4 img {
     width: 100%;
     height: 250px;
     object-fit: cover;
+  }
+
+  .article5 .grauerKasten a {
+    height: 5rem;
+    width: 15rem;
+  }
+
+  .article6 {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+  }
+
+  .formFeld .feld {
+    width: 40rem;
+    margin-bottom: 1rem;
+  }
+
+  .formFeld input {
+    height: 3rem;
+    padding: 0 10px;
+  }
+
+  .formFeld textarea {
+    height: 6rem;
+    padding: 5px 10px;
   }
 }
