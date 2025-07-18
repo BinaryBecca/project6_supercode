@@ -10,15 +10,6 @@
     --size_big: 5rem;
   }
 
-  .article2,
-  .article3,
-  .article4,
-  .article5,
-  .article6,
-  .article7 {
-    height: 110vh;
-  }
-
   .burger {
     width: 40px;
     margin: 3px;
