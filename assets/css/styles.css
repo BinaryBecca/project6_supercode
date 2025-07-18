@@ -160,6 +160,10 @@ header nav {
   gap: 1rem;
 }
 
+.article2 .animation {
+  width: 100%;
+}
+
 .article2 img,
 .article4 img {
   width: 100%;
